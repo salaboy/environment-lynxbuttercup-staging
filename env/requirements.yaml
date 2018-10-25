@@ -9,3 +9,4 @@ dependencies:
   alias: cleanup
 - name: activiti-cloud
   version: 0.2.9
+  repository: activiti-cloud-charts
