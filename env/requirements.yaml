@@ -1,13 +1,13 @@
 dependencies:
-- name: exposecontroller
-  version: 2.3.58
+- alias: expose
+  name: exposecontroller
   repository: https://chartmuseum.build.cd.jenkins-x.io
-  alias: expose
-- name: exposecontroller
   version: 2.3.58
+- alias: cleanup
+  name: exposecontroller
   repository: https://chartmuseum.build.cd.jenkins-x.io
-  alias: cleanup
-- name: activiti-cloud-full-example
-  version: 0.2.10
+  version: 2.3.58
+- alias: activiti-cloud
+  name: activiti-cloud-full-example
   repository: https://activiti.github.io/activiti-cloud-charts/
-  alias: activiti-cloud
+  version: 0.2.10
