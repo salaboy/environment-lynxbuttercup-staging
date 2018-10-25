@@ -33,6 +33,13 @@ global:
     url: "http://activiti-keycloak.35.240.125.42.nip.io/auth"
   gateway:
     host: &gatewayhost "activiti-cloud-gateway.35.240.125.42.nip.io" 
+ 
+runtime-bundle:
+  enabled: false
+activiti-cloud-connector:
+  enabled: false  
+activiti-cloud-modeling:
+  enabled: true
 
 activiti-cloud:
   activiti-cloud-modeling:
