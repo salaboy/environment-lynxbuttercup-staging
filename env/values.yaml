@@ -41,6 +41,12 @@ activiti-cloud-connector:
 activiti-cloud-modeling:
   enabled: true
 
+application:
+  runtime-bundle:
+    enabled: false
+  activiti-cloud-connector:
+    enabled: false
+
 activiti-cloud:
   activiti-cloud-modeling:
     enabled: true
