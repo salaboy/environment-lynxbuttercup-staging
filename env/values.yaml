@@ -49,6 +49,10 @@ activiti-cloud:
         pullPolicy: IfNotPresent
 
   application:
+    runtime-bundle:
+      enabled: false
+    activiti-cloud-connector:
+      enabled: false  
     activiti-cloud-query:
       resources:
         limits:
