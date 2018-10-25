@@ -7,3 +7,5 @@ dependencies:
   version: 2.3.58
   repository: https://chartmuseum.build.cd.jenkins-x.io
   alias: cleanup
+- name: activiti-cloud
+  version: 0.2.9
