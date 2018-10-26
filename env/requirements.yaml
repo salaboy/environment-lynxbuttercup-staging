@@ -17,6 +17,3 @@ dependencies:
 - name: my-example-runtime-bundle
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.3
-- name: test5
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.8
