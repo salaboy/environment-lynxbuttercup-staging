@@ -1,4 +1,8 @@
 dependencies:
+- alias: activiti-cloud
+  name: activiti-cloud-full-example
+  repository: https://activiti.github.io/activiti-cloud-charts/
+  version: 0.3.0
 - name: activiti-cloud-connector-slack
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.3
