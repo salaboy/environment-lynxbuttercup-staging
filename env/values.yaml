@@ -50,16 +50,6 @@ application:
 activiti-cloud:
   activiti-cloud-modeling:
     enabled: true
-    frontend:
-      image:
-        repository: ryandawsonuk/activiti-modeling-app
-        tag: 7.0.0.TEST5
-        pullPolicy: IfNotPresent
-    backend:
-      image:
-        repository: ryandawsonuk/activiti-cloud-modeling
-        tag: 7.0.0.TEST5
-        pullPolicy: IfNotPresent
 
   application:
     runtime-bundle:
@@ -74,10 +64,6 @@ activiti-cloud:
         requests:
           cpu: 1000m
           memory: 1024Mi
-      image:
-        repository: ryandawsonuk/activiti-cloud-query
-        tag: 7.0.0.TEST5
-        pullPolicy: IfNotPresent  
     activiti-cloud-audit:
       resources:
         limits:
@@ -86,10 +72,6 @@ activiti-cloud:
         requests:
           cpu: 1000m
           memory: 1024Mi
-      image:
-        repository: ryandawsonuk/activiti-cloud-audit
-        tag: 7.0.0.TEST5
-        pullPolicy: Always
 
   infrastructure:
     activiti-keycloak:
