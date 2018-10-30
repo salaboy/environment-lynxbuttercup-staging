@@ -5,7 +5,7 @@ dependencies:
   version: 0.3.0
 - name: activiti-cloud-connector-slack
   repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.3
+  version: 0.0.4
 - name: activiti-cloud-rb-review-articles
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.5
