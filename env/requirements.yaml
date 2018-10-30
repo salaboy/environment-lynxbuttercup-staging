@@ -1,14 +1,11 @@
 dependencies:
+- name: activiti-cloud-connector-slack
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.4
 - alias: activiti-cloud
   name: activiti-cloud-full-example
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.3.0
-- name: activiti-cloud-connector-slack
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.4
-- name: activiti-cloud-rb-review-articles
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.5
 - alias: expose
   name: exposecontroller
   repository: https://chartmuseum.build.cd.jenkins-x.io
